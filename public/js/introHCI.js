@@ -11,6 +11,8 @@ $(document).ready(function() {
 function initializePage() {
 	$('.project a').click(addProjectDetails);
 
+	e.preventDefault();
+
 	// $('#colorBtn').click(randomizeColors);
 }
 
